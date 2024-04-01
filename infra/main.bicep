@@ -7,6 +7,9 @@ param environmentName string
 
 param resourceToken string = toLower(uniqueString(subscription().id, environmentName, location))
 
+@description('Location for OpenAI resources.')
+param openai_location string
+
 @description('Location for all resources.')
 param location string
 
