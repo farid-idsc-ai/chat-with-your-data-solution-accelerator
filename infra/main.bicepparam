@@ -4,6 +4,8 @@ param environmentName = readEnvironmentVariable('AZURE_ENV_NAME', 'env_name')
 
 param location = readEnvironmentVariable('AZURE_LOCATION', 'location')
 
+param location = readEnvironmentVariable('OPENAI_LOCATION', 'openai_location')
+
 param principalId = readEnvironmentVariable('AZURE_PRINCIPAL_ID', 'principal_id')
 
 // Please make sure to set this value to false when using rbac with AZURE_AUTH_TYPE
