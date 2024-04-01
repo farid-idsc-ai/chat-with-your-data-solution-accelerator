@@ -473,7 +473,7 @@
             "value": "[parameters('azureOpenAIResourceName')]"
           },
           "location": {
-            "value": "[parameters('location')]"
+            "value": "[parameters('openai_location')]"
           },
           "tags": {
             "value": "[variables('tags')]"
